@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
-import Introduction from './components/intro/Introduction';
+import Introduction from './components/Introduction/Introduction';
+import About from './components/About/About';
 import './App.css';
 
 // Video: https://www.youtube.com/watch?v=hQjlM-8C4Ps&t=1s
@@ -9,6 +10,7 @@ const App = () => {
   return (
     <div>
       <Introduction />
+      <About />
     </div>
   );
 };
