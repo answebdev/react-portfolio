@@ -84,7 +84,7 @@ const Introduction = () => {
       </div>
       <div className='intro-right'>
         <div className='i-bg'></div>
-        <img src={ProfileImage} alt='' className='intro-img' />
+        <img src={ProfileImage} alt='Adolf Schmuck' className='intro-img' />
       </div>
     </div>
   );

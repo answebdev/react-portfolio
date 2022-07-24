@@ -10,7 +10,7 @@ const About = () => {
         <div className='about-card'>
           <img
             src='https://images.unsplash.com/photo-1618477388954-7852f32655ec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d2ViJTIwZGV2ZWxvcGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60'
-            alt=''
+            alt='Laptop'
             className='about-img'
           />
         </div>
@@ -21,15 +21,15 @@ const About = () => {
           It is a long established fact that a reader will be distracted by the
           readable content.
         </p>
-        <p className='about-desc'>
+        <p className='about-description'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           aliquip ex ea commodo consequat duis aute irure dolor in reprehende.
         </p>
-        {/* <div className='about-award'>
-          <img src={Award} alt='' className='about-award-img' />
-          <div className='about-award-texts'>
+        <div className='about-award'>
+          <img src={Award} alt='Award ' className='about-award-img' />
+          <div className='about-award-text'>
             <h4 className='about-award-title'>
               International Design Awards 2021
             </h4>
@@ -38,7 +38,7 @@ const About = () => {
               and fugit.
             </p>
           </div>
-        </div> */}
+        </div>
       </div>
     </div>
   );
