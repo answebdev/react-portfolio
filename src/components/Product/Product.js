@@ -17,3 +17,5 @@ const Product = ({ img, link }) => {
 };
 
 export default Product;
+
+// STOPPED AT 49:18
