@@ -64,28 +64,40 @@ const Contact = () => {
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
             <input
-              style={{ backgroundColor: darkMode ? '#333333' : '#ffffff' }}
+              style={{
+                backgroundColor: darkMode ? '#333333' : '#ffffff',
+                color: darkMode ? '#ffffff' : '#000000',
+              }}
               type='text'
               placeholder='Name'
               name='user_name'
               required
             />
             <input
-              style={{ backgroundColor: darkMode ? '#333333' : '#ffffff' }}
+              style={{
+                backgroundColor: darkMode ? '#333333' : '#ffffff',
+                color: darkMode ? '#ffffff' : '#000000',
+              }}
               type='text'
               placeholder='Subject'
               name='user_subject'
               required
             />
             <input
-              style={{ backgroundColor: darkMode ? '#333333' : '#ffffff' }}
+              style={{
+                backgroundColor: darkMode ? '#333333' : '#ffffff',
+                color: darkMode ? '#ffffff' : '#000000',
+              }}
               type='text'
               placeholder='Email'
               name='user_email'
               required
             />
             <textarea
-              style={{ backgroundColor: darkMode ? '#333333' : '#ffffff' }}
+              style={{
+                backgroundColor: darkMode ? '#333333' : '#ffffff',
+                color: darkMode ? '#ffffff' : '#000000',
+              }}
               rows='5'
               placeholder='Message'
               name='message'
@@ -93,8 +105,11 @@ const Contact = () => {
             />
             <button>Submit</button>
             <br />
+            <br />
             {/* {done && 'Thank you...'} */}
-            {done ? 'Thank you...' : null}
+            <div style={{ color: darkMode ? '#ffffff' : '#000000' }}>
+              {done ? 'Thank you...' : null}
+            </div>
           </form>
         </div>
       </div>
