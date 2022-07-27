@@ -81,5 +81,3 @@ const Contact = () => {
 };
 
 export default Contact;
-
-// STOPPED AT 1:06:45

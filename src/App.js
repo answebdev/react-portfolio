@@ -3,6 +3,7 @@ import Introduction from './components/Introduction/Introduction';
 import About from './components/About/About';
 import ProductList from './components/ProductList/ProductList';
 import Contact from './components/Contact/Contact';
+import Toggle from './components/Toggle/Toggle';
 import './App.css';
 
 // Video: https://www.youtube.com/watch?v=hQjlM-8C4Ps&t=1s
@@ -13,6 +14,7 @@ import './App.css';
 const App = () => {
   return (
     <div>
+      <Toggle />
       <Introduction />
       <About />
       <ProductList />
