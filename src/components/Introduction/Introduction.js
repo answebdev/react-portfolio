@@ -25,7 +25,7 @@ const Introduction = () => {
             online stores.
           </p>
         </div>
-        <svg
+        {/* <svg
           width='75'
           height='75'
           viewBox='0 0 75 75'
@@ -80,7 +80,7 @@ const Introduction = () => {
               />
             </g>
           </g>
-        </svg>
+        </svg> */}
       </div>
       <div className='intro-right'>
         <div className='i-bg'></div>
